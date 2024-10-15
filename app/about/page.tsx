@@ -10,12 +10,7 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/20/solid'
 
-const stats = [
-  { label: 'Founded in', value: '2021' },
-  { label: 'Creative Minds on the Team', value: '50+' },
-  { label: 'Projects Delivered', value: '120+' },
-  { label: 'Innovations in Progress', value: '20+' },
-]
+
 const values = [
   {
     name: 'Pursue Innovation.',
@@ -48,16 +43,16 @@ const values = [
     icon: SunIcon,
   },
 ]
-const team = [
-  {
-    name: 'Omar Salah',
-    role: 'Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Cairo, Egypt',
-  },
+// const team = [
+//   {
+//     name: 'Omar Salah',
+//     role: 'Founder / CEO',
+//     imageUrl:
+//       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+//     location: 'Cairo, Egypt',
+//   },
   // More people...
-]
+// ]
 const benefits = [
   'Competitive salaries',
   'Flexible work hours',
