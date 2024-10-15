@@ -24,7 +24,7 @@ import Footer from '@/components/Footer'
 // });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "Quadra Software Solution",
   description: "Quadra web dev",
 };
 
