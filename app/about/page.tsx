@@ -97,18 +97,18 @@ export default function about() {
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 lg:max-w-none lg:grid-cols-2">
               <div>
                 <p>
-                  At Quadra, we aren't just developers we're creators. We take pride in designing and building innovative software that stands out. Every project we work on is an opportunity to push boundaries and redefine what’s possible.
+                  At Quadra, we are not just developers we are creators. We take pride in designing and building innovative software that stands out. Every project we work on is an opportunity to push boundaries and redefine what’s possible.
                 </p>
                 <p className="mt-8">
-                  Our team is full of hardworking, passionate individuals who love what they do. We're always exploring new technologies and concepts, making sure that every idea turns into a powerful reality.
+                  Our team is full of hardworking, passionate individuals who love what they do. We are always exploring new technologies and concepts, making sure that every idea turns into a powerful reality.
                 </p>
               </div>
               <div>
                 <p>
-                  We are the upcoming tech bros who aren't afraid of hard work. Every line of code, every design, every solution we deliver is crafted with dedication. We enjoy the process, and nothing excites us more than seeing our ideas come to life.
+                  We are the upcoming tech bros who are not afraid of hard work. Every line of code, every design, every solution we deliver is crafted with dedication. We enjoy the process, and nothing excites us more than seeing our ideas come to life.
                 </p>
                 <p className="mt-8">
-                  Our journey is just beginning, and with every project, we’re growing stronger and more innovative. We love collaborating with clients who share our enthusiasm for creativity and problem-solving.
+                  Our journey is just beginning, and with every project, we are growing stronger and more innovative. We love collaborating with clients who share our enthusiasm for creativity and problem-solving.
                 </p>
               </div>
             </div>
