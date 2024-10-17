@@ -1,4 +1,24 @@
 
+    import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+
+const features = [
+  {
+    name: 'Visitor Registration and Pass Issuance',
+    description:
+      'The app enables hosts to quickly register visitors and issue digital or physical visitor passes, streamlining the check-in process and reducing waiting times.',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: 'Integration with Access Control Systems',
+    description: ' The app can seamlessly integrate with existing access control systems, allowing for automated entry permissions and ensuring that only authorized visitors gain access to specific areas within the facility or event.',
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Secure and Automated Visitor Management',
+    description: 'he app automates the visitor management process with secure data handling, enhancing efficiency by reducing manual paperwork and improving the overall guest experience.',
+    icon: ServerIcon,
+  },
+]
 
 import Image from 'next/image'
 
@@ -129,6 +149,47 @@ export default function Appdev() {
             </div>
 
 
+{/* project sample version */}
+
+<div>
+
+
+    <div className="overflow-hidden bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-lg">
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">من مشروعاتنا</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Visitor management app</p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+             A software application designed to streamline the process of managing visitors to a facility or event. The app typically allows hosts to register visitors, issue visitor passes, and track visitor activity.
+              </p>
+              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                {features.map((feature) => (
+                  <div key={feature.name} className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <feature.icon aria-hidden="true" className="absolute left-1 top-1 h-5 w-5 text-indigo-600" />
+                      {feature.name}
+                    </dt>{' '}
+                    <dd className="inline">{feature.description}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+          <Image
+            alt="Product screenshot"
+            src="/assets/mobilescreenshot.png"
+            width={350}
+            height={400}
+          />
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
         
 
 
