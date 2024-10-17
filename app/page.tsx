@@ -59,7 +59,7 @@ export default function Home() {
         <>
 
             {/* hero start */}
-            <div style={{
+               <div style={{
             background: 'radial-gradient(circle at top, #204878 0%, #121c27 43%, #000000 100%)',
             padding: '20px',
           
