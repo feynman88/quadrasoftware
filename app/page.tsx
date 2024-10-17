@@ -86,12 +86,12 @@ export default function Home() {
                                             {/* // This is the call to action buttons of the hero section */}
                                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                                 <a
-                                                    href="#"
+                                                    href="mailto:omar.assem.1913@gmail.com"
                                                     className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                                 >
                                                     تواصل معنا
                                                 </a>
-                                                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                                                <a href="/assets/portfolio/companyprofile.pdf" className="text-sm font-semibold leading-6 text-white">
                                                     اعمالنا <span aria-hidden="true">→</span>
                                                 </a>
                                             </div>
