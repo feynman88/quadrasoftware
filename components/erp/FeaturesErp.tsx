@@ -1,4 +1,5 @@
 
+                        import Image from "next/image";
 
 import { useState } from 'react';
 
@@ -58,10 +59,14 @@ export default function GlassTabsInterface() {
                     <div className="md:w-2/3 p-8">
                         <h3 className="text-3xl font-semibold text-white mb-4">{tabsData[activeTab].label}</h3>
                         <p className="text-blue-100 mb-6">{tabsData[activeTab].content}</p>
-                        <img
+                        
+                        <Image
                             src={tabsData[activeTab].image}
                             alt={tabsData[activeTab].label}
                             className="w-full h-auto rounded-lg shadow-lg"
+                            layout="responsive"
+                            width={500} // Replace with the actual width of the image
+                            height={300} // Replace with the actual height of the image
                         />
                     </div>
                 </div>
