@@ -33,7 +33,7 @@ const navigation = {
     ],
     company: [
         
-        { name: 'info@quadrasolutions.com', href: 'mailto:info@quadrasolutions.com' },
+        { name: 'info@quadrasolution.com', href: 'mailto:info@quadrasolution.com' },
 
     ],
     legal: [
