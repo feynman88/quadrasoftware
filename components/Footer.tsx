@@ -14,9 +14,7 @@ const navigation = {
             name: 'نظام إدارة التصنيع', href: '/erp'
         },
     ],
-
-
-    
+   
     support: [
         {
             name: 'برمجيات مخصصة', href: '/cusomesoftware'
@@ -81,7 +79,7 @@ const navigation = {
     ],
 }
 
-// import { useLocation } from 'react-router-dom';
+
 
 // The import statement for Image is not used, so it should be removed.
 import Image from 'next/image' // This line is not needed and can be removed.
