@@ -13,6 +13,7 @@
     "@heroicons/react": "^2.1.5",
     "@hookform/resolvers": "^3.9.1",
     "@next/font": "^14.2.15",
+    "cross-spawn": "^7.0.6",
     "isomorphic-dompurify": "^2.18.0",
     "next": "14.2.15",
     "rate-limiter-flexible": "^5.0.4",
@@ -20,6 +21,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.53.2",
     "resend": "^4.0.1",
+    "tailwind-merge": "^2.5.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {
