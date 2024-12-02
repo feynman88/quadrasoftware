@@ -33,7 +33,8 @@ const products = [
   },
   {
     name: " ERP أنظمة",
-    description: "Speak directly to your customers",
+    description:
+      "نظام تخطيط موارد المؤسسة هو برنامج شامل ومتكامل يهدف إلى تحسين كفاءة العمليات الإدارية والتشغيلية في المؤسسات",
     href: "/erp",
     icon: ClipboardDocumentIcon,
   },

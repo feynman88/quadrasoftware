@@ -5,22 +5,22 @@ import Products from '@/components/home/Products'
 import Testmonials from "@/components/home/Testmonials";
 const services = [
     {
-        title: 'برمجيات مخصصة', // {{ edit_1 }}
+        title: 'برمجيات مخصصة', 
         description: 'نقوم بتطوير حلول برمجية مخصصة تلبي احتياجات عملك الفريدة، بما في ذلك تطبيقات سطح المكتب، أدوات التشغيل الآلي، وأنظمة الإدارة.', // {{ edit_2 }}
         icon: CodeBracketIcon,
     },
     {
-        title: 'أنظمة ERP', // {{ edit_3 }}
+        title: 'أنظمة ERP', 
         description: 'تصميم وتنفيذ أنظمة ERP متكاملة لإدارة موارد الشركة بكفاءة، تشمل تخطيط الموارد، إدارة المشاريع، وإعداد التقارير المالية.', // {{ edit_4 }}
         icon: CubeIcon,
     },
     {
-        title: 'تطبيقات الويب والهواتف المحمولة', // {{ edit_5 }}
+        title: 'تطبيقات الويب والهواتف المحمولة', 
         description: 'تطوير تطبيقات ويب وتطبيقات هاتف محمول تفاعلية وسهلة الاستخدام، توفر تجربة استخدام سلسة على جميع الأجهزة والمنصات.', // {{ edit_6 }}
         icon: DevicePhoneMobileIcon,
     },
     {
-        title: 'التجارة الإلكترونية', // {{ edit_7 }}
+        title: 'التجارة الإلكترونية', 
         description: 'بناء وتطوير منصات تجارة إلكترونية متكاملة تشمل بوابات الدفع، إدارة المخزون، والتسويق الإلكتروني لزيادة المبيعات.', // {{ edit_8 }}
         icon: ShoppingCartIcon,
     },
