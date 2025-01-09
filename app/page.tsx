@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   CodeBracketIcon,
   CubeIcon,
@@ -48,7 +47,12 @@ interface ServiceCardProps {
   href: string;
 }
 
-const ServiceCard = ({ title, description, icon: Icon , href}: ServiceCardProps) => (
+const ServiceCard = ({
+  title,
+  description,
+  icon: Icon,
+  href,
+}: ServiceCardProps) => (
   <Link
     href={href}
     className="bg-white rounded-lg shadow-lg px-12 py-12 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:bg-gray-800 hover:text-white "
