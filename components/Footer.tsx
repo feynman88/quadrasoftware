@@ -36,10 +36,7 @@ const navigation = {
       href: "/ecommerce",
     },
   ],
-  company: [
-    { name: "Contact us", href: "/contact-us" },
-    { name: "Phone", href: "tel:00201093352919" },
-  ],
+  company: [{ name: "Contact us", href: "/contact-us" }],
   legal: [
     { name: "عننا", href: "/about" },
     { name: "اعمالنا", href: "/assets/portfolio/companyprofile.pdf" },
